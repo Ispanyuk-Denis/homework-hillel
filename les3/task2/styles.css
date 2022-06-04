@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+    background: #AEDEA9;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.scheme {
+    width: 450px;
+}
+.definition span, .display-code {
+    font-style: italic;
+    color: #FA20BD;
+}
+.heading-definition span{
+    background-color: #F48B8B;
+    font-size: 30px;
+    line-height: 36px;
+}
+.list-defination {
+    padding-left: 22px; 
+}
+.link-source a {
+    color: #074C9E;
+    font-weight: 700;
+    font-size: 32px;
+    text-decoration: none;
+}
+.bold-text {
+    font-weight: 700;
+}

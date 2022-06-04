@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.board {
+  background-color: #81e3ed;
+  padding: 30px 0;
+}
+
+.board-main {
+  background-color: #df5935;
+  height: 440px;
+  width: 1000px;
+  margin: 0 auto;
+  background-image: url("img/coffee-cup.png"), url("img/layer.png");
+  background-repeat: no-repeat;
+  background-position: center center, center right;
+  background-size: contain;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 90px 60px 90px 60px;
+}
+
+.board-main-title {
+  display: block;
+  width: 300px;
+}

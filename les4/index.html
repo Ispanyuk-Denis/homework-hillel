@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form elements</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 class="main-heading">Form element</h1>
+        <form action="" id="form-elements" class="form-elements">
+            <h2>Input type <span class="highlight">text</span></h2>
+            <label for="name">Введите имя <span class="required">*</span></label>
+            <input type="text" id="name" placeholder="Введите имя" required>
+
+            <h2>Input type <span class="highlight">password</span></h2>
+            <label for="password">Введите пароль</label>
+            <input type="password" id="password" placeholder="Введите пароль">
+
+            <h2>Input type <span class="highlight">email</span></h2>
+            <label for="email">Введите почту</label>
+            <input type="email" id="email" placeholder="Введите почту">
+
+            <h2>Input type <span class="highlight">number</span></h2>
+            <label for="number">Введите число</label>
+            <input type="number" id="number" placeholder="Введите число">
+
+            <h2>Input type <span class="highlight">radio</span></h2>
+            <div>
+                <input type="radio" id="male" name="radio" checked>
+                <label for="male">Мужской</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="radio">
+                <label for="female">Женский</label>
+            </div>
+            <h2>Input type <span class="highlight">chekbox</span></h2>
+            <input type="checkbox" id="chek1" name="checkbox">
+            <label for="chek1">Грибы</label>
+            <input type="checkbox" id="chek2" name="checkbox" checked>
+            <label for="chek2">Сыр</label>
+            <input type="checkbox" id="chek3" name="checkbox">
+            <label for="chek3">Зелень</label>
+            <div>
+                <h2>Input type <span class="highlight">Textarea</span></h2>
+                <textarea class="text-area">Я так считаю
+                </textarea>
+            </div>
+            <div>
+                <h2>Input type <span class="highlight">File</span></h2>
+                <label for="file">Загрузите файл</label>
+                <input type="file" accept=".png" multiple>
+            </div>
+            <div>
+                <h2>Input type <span class="highlight">search</span></h2>
+                <input type="search">
+            </div>
+            <div>
+                <h2>Input type <span class="highlight">color</span></h2>
+                <input type="color">
+            </div>
+            <div>
+                <h2>Input type <span class="highlight">Tel</span></h2>
+                <label for="tel">Введите телефон</label>
+                <input type="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="888-888-8888" required>
+            </div>
+            <div>
+                <h2>Input type <span class="highlight">select</span></h2>
+                <select name="" id="">
+                    <option value="">Ukraine</option>
+                    <option value="">England</option>
+                    <option value="">USA</option>
+                </select>
+            </div>
+            <div>
+                <h2>Input type <span class="highlight">Reset</span></h2>
+                <input type="reset">
+            </div>
+            <div>
+                <h2>Input type <span class="highlight">submit</span></h2>
+                <input type="submit" value="Выслать">
+            </div>
+            <button type="submit">Заслать</button>
+        </form>
+    </body>
+</html>

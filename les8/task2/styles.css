@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-img::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#container {
+    font-family: 'Roboto', sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+
+.header {
+    height: 168px;
+    margin-bottom: 14px;
+    background: linear-gradient(180deg, #FBB7E0 0%, #949EB8 100%);
+}
+
+.content-img {
+    padding: 41px 22px;
+    border: 1px solid #E5482B;
+    background-image: url("img/pattern.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 18px;
+}
+
+.content-img-pizza {
+    float: left;
+    width: 271px;
+}
+
+.button-content{
+    height: 52px;
+    margin-top: 30px;
+}
+.button-content a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: #E5482B;
+    text-align: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-top: 9px;
+}
+
+.content-img-description {
+    float: right;
+    width: 616px;
+}
+
+.content-img-description h2, .content-img-description p {
+    margin-bottom: 14px;
+    display: block;
+}
+
+.content-img-description h2 {
+    font-size: 45px;
+}
+
+.content-img-description p {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.decoration {
+    border: 1px solid #8333F1;
+    box-sizing: border-box;
+    border-radius: 0px 30px 30px;
+    padding: 38px 48px 30px;
+    background-image: url("img/woman-candl.png");
+    background-repeat: no-repeat;
+    background-position: right 43px top 26px;
+    margin-bottom: 16px;
+}
+
+.decoration-content {
+    width: 608px;
+}
+
+.decoration h2 {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 22px;
+}
+
+.decoration p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 22px;
+}
+.button-decoration {
+    height: 52px;
+    width: 239px;
+    display: block;
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px 30px 0px;
+    background: #8333F1;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.friends {
+    height: 290px;
+    background-image: url("img/friends.png"), url("img/cover.png");
+    background-repeat: no-repeat;
+    background-size: auto, contain;
+    background-position: center bottom;
+    margin-bottom: 21px;
+}
+
+.footer {
+    height: 153px;
+    border: 1px solid;
+    border-color: #2541D3 #DE1919 #000000 #09FDC2;
+    margin-bottom: 21px;
+    background-image: url("img/rainbow.png");
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    /* background: radial-gradient(circle farthest-side at 43.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 130.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 217.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 304.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 391.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 478.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 565.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 652.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 739.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 826.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px),
+                radial-gradient(circle farthest-side at 913.5px 100%, #ffffff00 17.5px, #d300c9 17.5px 21px, #7a00e5 21px 24.5px, #0068ff 24.5px 28px, #00bc3f 28px 31.5px, #ffff00 31.5px 34px, #ff7f00 34px 37.5px, #ff0000 41px 44.5px, #00000000 44.5px); */
+}

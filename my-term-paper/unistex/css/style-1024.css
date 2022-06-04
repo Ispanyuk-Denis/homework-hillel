@@ -1,0 +1,553 @@
+/* HEADER */
+
+.header {
+    background-position: left calc(15% + 100px) top 345px, top 120px right 15%, top 40px right 15%, top 210px left 15%;
+    background-size: 170px auto, 528px auto, 800px auto, 300px auto;
+}
+
+.header-block {
+    min-height: 700px;
+    position: relative;
+    align-items: center;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.logo {
+    max-width: 191px;
+    max-height: 38px;
+    transition: 0.4s;
+}
+
+.logo-link {
+    transition: 0.3s;
+}
+
+.logo-link:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.nav-login {
+    flex-direction: row;
+    align-items: center;
+}
+
+.sign-in, .registration {
+    display: block;
+}
+
+.sign-in:hover, .registration:hover {
+    color: #4FFFCA;
+    transition: 0.3s;
+}
+
+.nav-login-link {
+    display: none;
+}
+
+.lang {
+    position: relative;
+    z-index: 9;
+}
+
+.lang::after, .lang::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+
+}
+
+.lang::after {
+    transform: rotate(45deg);
+    top: 16px;
+    right: 8px;
+    transition: 0.3s;
+}
+
+.lang::before {
+    transform: rotate(-45deg);
+    top: 16px;
+    right: 2px;
+}
+
+.ru, .eng {
+    font-family: "Montserrat-Regular"; 
+    font-size: 14px;
+    transition: 0.3s;
+    padding: 10px 20px 10px 10px;
+    margin-top: 0;
+}
+
+.eng {
+    display: none;
+    position: absolute;
+    height: 36px;
+}
+
+.ru:hover, .eng:hover {
+    color: #4FFFCA;
+    transition: 0.3s;
+}
+
+.lang:hover > .eng {
+    display: block;
+}
+
+.header-info {
+    display: flex;
+    flex-basis: 283px;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.percentage-info {
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.trade-begin {
+    font-size: 14px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trade-begin:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* LICENSE */
+
+.license-block {
+    min-height: 563px;
+    min-width: 100%;
+    background-position: top 0 right 20%, bottom left;
+    background-size: auto 100%, auto 563px;
+    padding-top: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.license-grant {
+    max-width: 40%;
+    margin: 20px 10% 0 0;
+    
+}
+
+.grant-inform {
+    font-size: 26px;
+    line-height: 115%;
+}
+
+/* PRODUCT */
+
+.product {
+    padding-top: 70px;
+    background-position: bottom 30px left calc(50% - 200px);
+    margin-bottom: 80px;
+}
+
+.product-title, .partners-title {
+    font-size: 170px;
+    line-height: 115%;
+    margin-bottom: 80px;
+}
+
+.product-types {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 1 / 3 / 2 / 5; }
+    .div3 { grid-area: 1 / 5 / 2 / 7; }
+    .div4 { grid-area: 2 / 1 / 3 / 4; }
+    .div5 { grid-area: 2 / 4 / 3 / 7; }
+
+.card-product {
+    justify-content:start;
+}
+
+.card-title {
+    font-size: 36px;
+}
+
+.card-discription {
+    font-size: 18px;
+    line-height: 115%;
+}
+
+.company-discr {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-company {
+    max-width: 262px;
+    max-height: 50px;
+    margin-bottom: 40px;
+}
+
+.company-discr h3 {
+    font-size: 20px;
+    line-height: 115%;
+    max-width: 60%;
+    margin-bottom: 40px;
+}
+
+.company-discr ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.company-discr li {
+    font-size: 11px;
+    padding: 0 10px;
+    border-bottom: none;
+    border-image: none;
+    border-right: 1px solid #fff;
+    width: calc(100% / 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.company-discr-second h3 {
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+
+.company-discr-second p {
+    font-size: 26px;
+    line-height: 115%;
+}
+
+.company-discr-second p.bold {
+    margin-bottom: 50px;
+}
+
+.company-discr-second .trade-begin {
+    max-width: 235px;
+}
+
+/* ZERO-PERCENT */
+
+.zero-percent {
+    display: block;
+}
+
+.zero-percent-block .percentage-info {
+    margin-bottom: 0;
+}
+
+/* PARTNERS */
+
+.partners {
+    padding: 30px 0;
+}
+
+.partners-block {
+    max-width: 100vw;
+    margin: 0;
+}
+
+.partners-logo {
+    width: 100%;
+}
+
+.partners-title {
+    margin-bottom: 50px;
+}
+
+.partners-logo a {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    height: 45px;
+}
+
+.partners-logo::after, .partners-logo::before {
+    display: block;
+}
+
+/* ADVANTAGE */
+
+.advantage {
+    min-height: 656px;
+    background-position: top 50% right 0, top 50% left 15%;
+    background-size: auto 130%, auto auto;
+    display: flex;
+    align-items: center;
+}
+
+.advantege-block {
+    min-width: 80vw;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantage-title {
+    font-size: 55px;
+    line-height: 107%;
+    margin-bottom: 30px;
+}
+
+.advantege-block ul {
+    margin-bottom: 30px;
+    list-style: inside;
+}
+
+.advantege-block li {
+    font-size: 22px;
+}
+
+.advantege-block .trade-begin {
+    max-width: 323px;
+    margin: 0;
+}
+
+/* TRADE-ANYWHERE */
+
+.trade-anywhere {
+    background-image: url("../img/background/mobile.png"), url("../img/background/ellipse.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 50% left 20%, top 50% left calc(20% - 180px);
+} 
+
+.trade-anywhere-block {
+    min-height: 825px;
+    padding: 130px 0;
+    justify-content: center;
+}
+
+.trade-anywhere-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+.trade-anywhere-block p {
+    font-size: 20px;
+    line-height: 115%;
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+.app-store-link {
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.app-store-link:hover {
+    box-shadow: 0 0 10px #4FFFCA;
+    transition: 0.3s;
+}
+
+.trade-anywhere-block .line {
+    display: block;
+}
+
+/* REFERAL */
+
+.referal {
+    background-position: top 0 right -350px, top 20% right -420px;
+    background-size: auto 130%, auto 200%;
+}
+
+.referal-block {
+    min-height: 550px;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.referal-block h2 {
+    font-size: 43px;
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+.referal-block p {
+    font-size: 26px;
+    line-height: 118%;
+    margin-bottom: 30px;
+    max-width: 50%;
+}
+
+.referal-block .trade-begin {
+    margin: 0;
+    max-width: 235px;
+}
+
+/* FAQ */
+
+.faq-block {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 80px 0 35px;
+}
+
+.faq-block h2 {
+    font-size: 50px;
+}
+
+.faq-item {
+    position: relative;
+}
+
+.item-label::after, .item-label::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: #4FFFCA;
+}
+
+.item-label::after {
+    transform: rotate(45deg);
+    top: 32px;
+    right: 28px;
+    transition: 0.3s;
+}
+
+.item-label::before {
+    transform: rotate(-45deg);
+    top: 32px;
+    right: 22px;
+    transition: 0.3s;
+}
+
+input:checked ~ .item-label::after {
+    transform: rotate(-45deg);
+}
+
+input:checked ~ .item-label::before {
+    transform: rotate(45deg);
+}
+
+.faq-item label {
+    font-size: 26px;
+    line-height: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.faq-item label:hover {
+    text-shadow: 0 0 10px #fff;
+    transition: 0.3s;
+}
+
+.item-content {
+    font-size: 26px;
+    line-height: 100%;
+}
+
+
+
+/* FOOTER */
+
+.footer-block .logo-link {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    max-width: fit-content;
+}
+
+.footer-block p:first-of-type {
+    margin-bottom: 20px;
+}
+
+.footer-block p:last-of-type {
+    margin-bottom: 60px;
+}
+
+.footer-block .logo-link .logo {
+    max-width: 133px;
+    max-height: 28px;
+}
+
+.logo-social {
+    max-width: 102px;
+    align-self: auto;
+    order: 0;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.facebook, .instagram, .youtube {
+    max-width: 30px;
+    max-height: 30px;
+    transition: 0.3s;
+}
+
+.facebook:hover, .instagram:hover, .youtube:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.footer-block p {
+    font-size: 15px;
+}
+.attention .item-label {
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.attention .item-label:hover {
+    text-shadow: 0 0 10px #4FFFCA;
+    transition: 0.3s;
+}
+
+.attention .item-label::after {
+    font-size: 18px;
+}
+
+.attention .item-content p {
+    margin-top: 50px;
+}
+
+/* MODAL */
+
+.modal:target {
+    background-image: url("../img/background/percent.png"), url("../img/rocket.png"), url("../img/background/modal-backgr.png"), url("../img/background/zero.png"), url("../img/background/ellipse.png");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top calc(40% + 45px) left calc(15% + 100px), top 40% right calc(15% + 10px), bottom -620px right calc(40% - 200px), top 40% left calc(15% + 10px), top 40% right calc(15% - 170px);
+    background-size: auto 150px, auto 460px, auto 1000px, 300px auto, auto auto;
+}
+
+.modal-info .trade-begin {
+    width: 30%;
+
+    margin-top: 15px;
+}
+
+.modal-percent-info {
+    font-size: 44px;
+    z-index: 0;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lesson Bootstrap</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">Logo</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link" href="#about">About</a>
+		        </li>
+				<li class="nav-item">
+					<a class="nav-link" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="#blog">Blog</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+				</li>
+		      </ul>
+		      <form class="d-flex">
+		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        <button class="btn btn-success" type="submit">Search</button>
+		      </form>
+		    </div>
+		  </div>
+		</nav>
+		<header class="header d-flex align-items-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1 class="text-success">Hello, Welcome To My Planet</h1>
+						<p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, debitis nemo ea ullam molestiae nam obcaecati alias sint dicta fugit incidunt adipisci perspiciatis eligendi aliquam tempore nihil? Mollitia, delectus asperiores. </p>
+						<a href="#" class="btn btn-lg btn-success" type="submit">See more</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="about" class="py-5 border-bottom border-success">
+				<h2 class="text-center" id="about">About</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-sm-4 col-12">
+							<img src="img/avatar.png" alt="Avatar" class="border border-success rounded-circle img-fluid">
+						</div>
+						<div class="col-md-10 col-sm-8 col-12">
+							<h3>DR. Alien</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem pariatur quod facilis aliquid veritatis, vero, quo eum blanditiis consequuntur est a, quam eius quaerat ratione. Illo inventore beatae corrupti?
+							</p>
+						</div>
+					</div>
+				</div>
+				<h2 class="text-center">My family</h2>
+				<div class="d-flex justify-content-center">
+					<div id="carouselExampleControls" class="carousel slide d-flex align-items-center" data-bs-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img src="img/my-father.jpg" class="d-block" alt="father">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/my-grandfather.jpg" class="d-block" alt="my-grandfather">
+						  </div>
+						  <div class="carousel-item">
+							<img src="img/my-uncle.jpg" class="d-block" alt="uncle">
+						  </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Next</span>
+						</button>
+					  </div>
+				</div>
+			</div>
+			<div id="portfolio" class="py-2 border-bottom border-success">
+				<h2 class="portfolio-title text-center" id="portfolio">Portfolio</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 my-2">
+							<img src="img/portfolio/portfolio-1.png" alt="portfolio-one" class="img-fluid">
+						</div>
+						<div class="col-md-4 my-2">
+							<img src="img/portfolio/portfolio-2.png" alt="portfolio-two" class="img-fluid">
+						</div>
+						<div class="col-md-4 my-2">
+							<img src="img/portfolio/portfolio-3.png" alt="portfolio-three" class="img-fluid">
+						</div>
+						<div class="col-md-4 my-2">
+							<img src="img/portfolio/portfolio-4.png" alt="portfolio-four" class="img-fluid">
+						</div>
+						<div class="col-md-4 my-2">
+							<img src="img/portfolio/portfolio-5.png" alt=" portfolio-five" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="blog" class="py-2 border-bottom border-success">
+				<h2 class="blog-title text-center" id="blog">Blog</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 py-1 mb-3">
+							<div class="border">
+								<img src="img/blog/blog-news-1.jpeg" alt="blog-one" class="col-12">
+								<h3 class="p-3 m-0">Post Title</h3>
+								<p class="p-3 m-0 pt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt consequatur, debitis quibusdam accusantium error, quas unde illum eaque in similique tempore incidunt odit, id enim dolores distinctio! Quasi, dolore. </p>
+								<div class="border read-more p-3 bg-light">
+									<a href="#" class="text-decoration-none">Read More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 py-1 mb-3">
+							<div class="border">
+								<img src="img/blog/blog-news-2.jpg" alt="blog-two" class="col-12">
+								<h3 class="p-3 m-0">Post Title</h3>
+								<p class="p-3 m-0 pt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt consequatur, debitis quibusdam accusantium error, quas unde illum eaque in similique tempore incidunt odit, id enim dolores distinctio! Quasi, dolore. </p>
+								<div class="border read-more p-3 bg-light">
+									<a href="#" class="text-decoration-none">Read More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 py-1 mb-3">
+							<div class="border">
+								<img src="img/blog/blog-news-3.jpg" alt="blog-three" class="col-12">
+								<h3 class="p-3 m-0">Post Title</h3>
+								<p class="p-3 m-0 pt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt consequatur, debitis quibusdam accusantium error, quas unde illum eaque in similique tempore incidunt odit, id enim dolores distinctio! Quasi, dolore. </p>
+								<div class="border read-more p-3 bg-light">
+									<a href="#" class="text-decoration-none">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="contact-us" class="py-3">
+				<h2 class="contact-us-title text-center" id="contact">Contact Us</h2>
+				<div class="container d-flex justify-content-center">
+					<div class="row col-12 col-sm-12 col-md-6 ">
+						<div class="form-floating">
+							<div class="form-floating mb-3">
+								<input type="text" class="form-control" id="your-name" placeholder="Your Name">
+								<label for="your-name">Your Name</label>
+							</div>
+							<div class="form-floating mb-3">
+								<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+								<label for="floatingInput">Email address</label>
+							</div>
+							<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px;"></textarea>
+							<div class="col-12 mt-3">
+								<button type="submit" class="btn btn-primary btn-success">Send</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.5.1.slim.min.js"></script>
+	</body>
+</html>

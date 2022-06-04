@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 38px 0 25px;
+}
+
+.form {
+    padding: 34px 33px 26px;
+    background: #ca6d4f4d;
+    border-radius: 15px;
+    width: 467px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.form-item-name {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-item-inf,
+.form-text-area  {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.form-item-inf {
+    height: 34px;
+    margin-bottom: 25px;
+}
+select.form-item-inf {
+    appearance: none;
+    background-image: url("img/strel.png");
+    background-repeat: no-repeat;
+    background-position: 375px 10px;
+    background-size: 15px 15px;
+}
+
+.form-radio-box {
+    margin-bottom: 25px;
+}
+
+.form-radio-box div {
+    margin-bottom: 11px;
+}
+
+.form-text-area {
+    resize: none;
+    height: 98px;
+    margin-bottom: 15px;
+}
+
+.required {
+    color: #ff0000;
+}
+
+.form-submit {
+    float: right;
+}
+
+.form-chek {
+    margin-right: 15px;
+}
+
+.form-chek:before {
+    content: "";
+    background-image: url("img/chek-of.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transition: .1s ease-in;
+}
+
+.form-chek:checked:before {
+    background-image: url("img/chek-on.png");
+}
+
+.form-radio-box div label {
+    margin-left: 15px;
+}
+
+.radio {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+
+.radio:before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background: url(img/chek-of.png) 0 0 no-repeat;
+    background-size: contain;
+    margin-bottom: -6px;
+}
+
+.radio:checked:before {
+	background: url(img/radio-on.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.form-privacy-policy {
+    margin: -3px 0 20px;
+}
+
+.privacy-policy {
+    text-decoration: none;
+}
+
+.form-buttons input{
+    margin: 0 auto;
+    font-size: 14px;
+    display: inline-block;
+    border: none;
+    width: 183px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    transition: 0.25s;
+}
+
+.form-buttons input:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+/* I deleted active */

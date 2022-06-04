@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f5fcff;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    background-image: url("img/grass.png"), url("img/cloud.png"), url("img/sun.png"), url("img/deer.png");
+    background-size: auto 150px, auto 200px, auto auto, auto 500px;
+    background-repeat: repeat-x, repeat-x, no-repeat, no-repeat;
+    background-position: 0% 100%, 0% 10%, 100% 0%, 50% 100%;
+}

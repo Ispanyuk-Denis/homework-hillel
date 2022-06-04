@@ -1,0 +1,69 @@
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 100px;
+    width: 600px;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: #00ffff;
+    border-radius: 50%;
+}
+
+.one {
+    animation: loading 2s linear infinite;
+    animation-delay: 0s;
+}
+
+.two {
+    animation: loading 2s linear infinite;
+    animation-delay: 0.2s;
+}
+
+.three {
+    animation: loading 2s linear infinite;
+    animation-delay: 0.4s;
+}
+
+.four {
+    animation: loading 2s linear infinite;
+    animation-delay: 0.6s;
+}
+
+.five {
+    animation: loading 2s linear infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+        background-color: #00ffff;
+    }
+    25% {
+        transform: scale(3);
+        background-color: #09ff00;
+    }
+    50% {
+        transform: scale(5);
+        background-color: #002fff;
+    }
+    75% {
+        transform: scale(3);
+        background-color: #ff00aa;
+    }
+    100% {
+        transform: scale(1);
+        background-color: #00ffff;
+    }
+}
