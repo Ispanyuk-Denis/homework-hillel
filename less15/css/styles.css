@@ -83,8 +83,9 @@ button.slick-next.slick-arrow {
 	font-size: 40px;
 	line-height: 80px;
 	text-transform: uppercase;
-	border: 1px solid;
-	border-color: #000 #fff;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #000;
 	margin-bottom: 60px;
 }
 
